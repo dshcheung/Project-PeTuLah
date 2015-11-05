@@ -4,7 +4,7 @@
     All Tours
   </h4>
   <% @tours.each do |tour|%>
-    <div class="col-md-6 portfolio-item">
+    <div class="col-md-6 portfolio-item img-container">
       <h3 class="text-left tour-name text-info">
       <%= tour.name %></h3>
       <%= image_tag tour.image, class: "img-responsive tour-images" %>
