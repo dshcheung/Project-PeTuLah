@@ -3,8 +3,20 @@
 }
 
 .tour-images {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
+  max-height: 80%;
+  img {
+    max-height: 80%;
+  }
 }
 
+@media screen and (min-width: 992px) {
+  .tour-container {
+    height: 460px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .tour-container {
+    height: 520px;
+  }
+}
